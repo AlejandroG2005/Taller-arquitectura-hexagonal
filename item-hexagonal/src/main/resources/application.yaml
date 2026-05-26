@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: item
+  data:
+    mongodb:
+      database: items
+      auto-index-creation: true
+
+de:
+  flapdoodle:
+    mongodb:
+      embedded:
+        version: 6.0.5
